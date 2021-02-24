@@ -1,0 +1,65 @@
+﻿body {
+    background-color: #647F9C;
+    font-family: "Courier";
+    font-size: 20px;
+    color: #CCD4DC;
+}
+
+#Container {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    height: 70%;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #4E555C;
+    opacity: 0.8;
+    border-color: #11171D;
+    -webkit-box-shadow: 37px 22px 29px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 27px 12px 19px 10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.75);
+}
+
+.textBox {
+    margin: 10px;
+    width: 350px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    font-size: 20px;
+}
+
+#BtnIngresar {
+    margin-top: 30px;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #D5D5D5;
+    background-color: #11171D;
+    border: 2px solid #11171D;
+    -webkit-box-shadow: 17px 12px 19px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.75);
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+    height: 53px;
+}
+
+    #BtnIngresar:hover {
+        transform: translateY(-3px) translateX(-3px);
+        transition-duration: 1s;
+        background-color: #283645;
+    }
+
+@media screen and (max-width: 1180px) {
+    #Container {
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+}
